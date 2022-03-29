@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
     
     @Override
     protected void onResume(){
-    	Toast.makeText(getApplicationContext(),"welcome",Toast.LENGTH_LONG).show();
+    	Toast.makeText(getApplicationContext(),"Hello World",Toast.LENGTH_LONG).show();
     	super.onResume();
     }
 
